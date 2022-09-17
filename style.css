@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Lato&amp;display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.body{
+  background: white
+}
+.zoom{
+zoom:150%;
+}
+
+
+.coloursboxborder{
+  width:630px;
+  position: relative;
+  border-width: thin;
+  border-style: hidden;
+  border-color: grey;
+  border-bottom: 700px;
+  padding-left: 17.5px;
+  border-radius: 6.5px;
+  margin-left: 20px;
+}
+.colorborder{
+  width: 690px;
+  height: 225px;
+  position:relative;
+  border-width:thick;
+  border-style: solid;
+  border-color: lightgrey;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  padding-top: 100px;
+  padding-bottom: 175px;
+  margin-top:-825px;
+}
+.fullclock.full_top{
+  margin-top: 0px;
+  display: block;
+  padding-top: 35px;
+  position: relative;
+}
+.allbus{
+  text-align: center;
+  padding-top: 25px;
+  position: relative;
+}
+.main{
+  background:white;
+  width:665px;
+  height:195px;
+  margin:0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.barcode{
+  position:relative;
+  text-align: center;
+  margin-top: 140px;
+
+
+}
+.cashback{
+  text-align: center;
+  padding-top: 25px
+}
+.ticket{
+text-align: center;
+padding-top: 25px;
+}
+.mticket{
+  text-align: center;
+  padding-top: 25px
+
+}
+.reveal{
+  position: sticky;
+  text-align: center;
+  font-size: 25px;
+  margin-top: -50px;
+  font-weight: bold;
+}
+.clock{
+  color: white;
+  position:absolute;
+  margin-top:-745px;
+  font-family:Lato;
+  font-weight:normal;
+  font-size: 60px;
+  border-radius: 4px;
+  text-shadow: 5px 5px 3px black;
+  animation-name: moving;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border-radius:  100px;
+  border-style: hidden;
+  text-align: center;
+}
+.colours {
+  animation-name:flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+  0% { opacity: 1; }
+	50% { opacity: .5; }
+	75% { opacity: .75; }
+  100%{opacity: 1}
+}
+@keyframes moving{
+0%   {left:0px; right:330px;}
+25%  {left:330px; right:0px;}
+50%  {left:0px; right:330px;}
+75%  {left:330px; right:0px;}
+100% {left:0px; right:330px;}
+}
+.colour1{
+  position: relative;
+  background:#1cec5a;
+  width:216px;
+  height:195px;
+  margin-left:-20px;
+  border-radius: 6.5px;
+}
+.colour2{
+  background:#06e098;
+  width:225px;
+  height:195px;
+  margin-top:-195px;
+  margin-left:195px;
+  margin-right: 5px;
+  margin-bottom: 600px;
+  border-radius: 6px;
+}
+.colour3{
+  background:#bdc527;
+  width:216px;
+  height:195px;
+  margin-top:-795px;
+  margin-left:419px;
+  margin-right:0px;
+  margin-bottom: 600px;
+  border-radius: 6.5px;
